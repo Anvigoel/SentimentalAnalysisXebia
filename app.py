@@ -9,7 +9,7 @@ Original file is located at
 # **DATA EXTRACTION**
 """
 
-import googleapiclient.discovery
+#import googleapiclient.discovery
 import pandas as pd
 
 api_service_name = "youtube"
@@ -28,7 +28,7 @@ response = request.execute()
 for item in response['items']:
     print(item['snippet']['topLevelComment']['snippet']['textDisplay'])
 
-import googleapiclient.discovery
+#import googleapiclient.discovery
 import pandas as pd
 
 api_service_name = "youtube"
